@@ -4,6 +4,7 @@ on:
         workflows: ['\[CI\] Build Unstable']
         types:
         -   completed
+        -   requested
 jobs:
     report:
         runs-on: ubuntu-latest
